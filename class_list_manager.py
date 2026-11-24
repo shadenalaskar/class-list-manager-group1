@@ -20,3 +20,7 @@ def main():
     print("Number of names:", count_names(names))
 
 main()
+ # Written by: Shahad 
+def search_name(names, name):
+    return name in names
+        print("Search for Ghaliah:", search_name(names, "Ghaliah"))

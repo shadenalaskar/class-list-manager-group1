@@ -22,7 +22,7 @@ def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
     print("Number of names:", count_names(names))
-        print("Search for Ghaliah:", search_name(names, "Ghaliah"))
+    print("Search for Ghaliah:", search_name(names, "Ghaliah"))
 
 main()
 

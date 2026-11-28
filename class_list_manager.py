@@ -16,7 +16,13 @@ def count_names(names):
 def search_name(names, name):
     return name in names
 
-
+# Written by: Rahaf (task 4)
+def names_starting_with(names, letter):
+    result = []
+    for name in names:
+        if name.startswith(letter):
+            result.append(name)
+    return result
 
 def main():
     print("Welcome to the Class List Manager!")
